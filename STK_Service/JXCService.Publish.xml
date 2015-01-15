@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<publishData>
+  <publishProfile publishUrl="D:\TY_JXC\Publish\Service" deleteExistingFiles="True" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="Default Web Site/dnsoft/gbjy/service" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="配置文件1" publishMethod="FileSystem" replaceMatchingFiles="False" userName="DingnuoFjw" savePWD="True" userPWD="AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAL7FfQvGVcECejLkKtCYvkgAAAAACAAAAAAADZgAAqAAAABAAAADkYTpDKytAZ132U9XCG52EAAAAAASAAACgAAAAEAAAALHLXKYN3BztlXc5Y0QoZ9EgAAAANLpdnZURv4Fl9bPhAOJQW+pxX85NgE90MSTVgnXr79YUAAAAPqvYU5MfWAF5wfRkhX8owhCo8SE=" SelectedForPublish="True">
+    <file relUrl="bin/TY.Library.dll" publishTime="08/03/2012 10:59:02" />
+    <file relUrl="bin/log4net.dll" publishTime="03/30/2006 13:24:28" />
+    <file relUrl="bin/Microsoft.Practices.Unity.dll" publishTime="10/24/2008 17:03:22" />
+    <file relUrl="bin/JXCService.pdb" publishTime="08/03/2012 11:00:46" />
+    <file relUrl="bin/Microsoft.Practices.EnterpriseLibrary.Common.dll" publishTime="10/27/2008 10:11:50" />
+    <file relUrl="Web.config" publishTime="08/03/2012 11:00:54" />
+    <file relUrl="bin/Microsoft.Practices.EnterpriseLibrary.Data.dll" publishTime="10/27/2008 10:11:36" />
+    <file relUrl="bin/Microsoft.Practices.ObjectBuilder2.dll" publishTime="10/24/2008 17:03:22" />
+    <file relUrl="WS_JXC.svc" publishTime="12/20/2011 11:06:32" />
+    <file relUrl="bin/TY.Library.pdb" publishTime="08/03/2012 10:59:02" />
+    <file relUrl="bin/JXCService.dll" publishTime="08/03/2012 11:00:46" />
+  </publishProfile>
+</publishData>

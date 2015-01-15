@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/STKService" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/STKService" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="DataType_User">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:ModelBase">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="LoginAddr" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="LoginDate" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="LoginID" type="xs:int" />
+          <xs:element minOccurs="0" name="LoginName" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="LoginPswd" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="MobiPhone" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="NewUserCode" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="NewUserPswd" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="RoleList" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="UserCode" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="UserEmail" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="UserName" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="UserPswd" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="UserState" type="xs:int" />
+          <xs:element minOccurs="0" name="WorkName" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="WorkPhone" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="入职时间" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="可入仓库编码" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="可出仓库编码" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="备注" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="家庭住址" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="工作岗位" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="所在店铺编码" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="离职时间" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="职务" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="身份证号" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="DataType_User" nillable="true" type="tns:DataType_User" />
+  <xs:complexType name="ModelBase">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Date_B" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Date_E" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="ErrorMsg" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ExAction" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ExResult" type="xs:int" />
+      <xs:element minOccurs="0" name="LoginUserCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="LoginUserPswd" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MAC" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PageCount" type="xs:int" />
+      <xs:element minOccurs="0" name="PageIndex" type="xs:int" />
+      <xs:element minOccurs="0" name="PageRows" type="xs:int" />
+      <xs:element minOccurs="0" name="RowsCount" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ModelBase" nillable="true" type="tns:ModelBase" />
+  <xs:complexType name="DataType_Role">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:ModelBase">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="RoleID" type="xs:int" />
+          <xs:element minOccurs="0" name="RoleMemo" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="RoleMenu" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="RoleName" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="DataType_Role" nillable="true" type="tns:DataType_Role" />
+  <xs:complexType name="DataType_Param">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:ModelBase">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="AppName" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="CSVersion" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="DBVersion" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="DP_Money" type="xs:int" />
+          <xs:element minOccurs="0" name="DP_Number" type="xs:int" />
+          <xs:element minOccurs="0" name="WSVersion" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="公司传真" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="公司名称" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="公司地址" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="公司电话" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="公司负责人" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="DataType_Param" nillable="true" type="tns:DataType_Param" />
+  <xs:complexType name="DataType_Grid">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:ModelBase">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="GridDefine" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="GridMemo" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="GridName" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="GridUser" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="DataType_Grid" nillable="true" type="tns:DataType_Grid" />
+  <xs:complexType name="DataType_存货">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:ModelBase">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="助记码" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="包含下级" type="xs:boolean" />
+          <xs:element minOccurs="0" name="备注" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="存货单价" type="xs:decimal" />
+          <xs:element minOccurs="0" name="存货名称" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="存货状态" type="xs:int" />
+          <xs:element minOccurs="0" name="存货编码" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="库存上限" type="xs:decimal" />
+          <xs:element minOccurs="0" name="库存下限" type="xs:decimal" />
+          <xs:element minOccurs="0" name="显示绑定" type="xs:boolean" />
+          <xs:element minOccurs="0" name="类别编码" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="规格型号" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="计量单位" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="默认仓库编码" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="DataType_存货" nillable="true" type="tns:DataType_存货" />
+  <xs:complexType name="DataType_存货_类别">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:ModelBase">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="上级编码" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="创建人编码" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="创建时间" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="助记词" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="备注" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="类别名称" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="类别状态" type="xs:int" />
+          <xs:element minOccurs="0" name="类别类型" type="xs:int" />
+          <xs:element minOccurs="0" name="类别编码" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="DataType_存货_类别" nillable="true" type="tns:DataType_存货_类别" />
+  <xs:complexType name="DataType_仓库">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:ModelBase">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="MxDataXML" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="上级编码" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="仓库位置编码" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="仓库名称" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="仓库地址" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="仓库容量" type="xs:decimal" />
+          <xs:element minOccurs="0" name="仓库状态" type="xs:int" />
+          <xs:element minOccurs="0" name="仓库电话" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="仓库类型" type="xs:int" />
+          <xs:element minOccurs="0" name="仓库编码" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="仓库负责人" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="创建人编码" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="创建时间" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="包含所有项" type="xs:int" />
+          <xs:element minOccurs="0" name="备注" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="DataType_仓库" nillable="true" type="tns:DataType_仓库" />
+  <xs:complexType name="DataType_供应商">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:ModelBase">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="业务范围" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="传真" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="供应商名称" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="供应商编码" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="地址" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="备注" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="开户银行" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="电话" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="联系人" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="联系人手机" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="邮编" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="银行账号" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="DataType_供应商" nillable="true" type="tns:DataType_供应商" />
+  <xs:complexType name="DataType_库存管理">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:ModelBase">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="MxDataXML" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="业务日期" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="仓库编码" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="供应商编码" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="制单人编码" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="单据类型" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="单据编码" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="原始单号" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="备注" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="开始时间" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="所有未审核" type="xs:boolean" />
+          <xs:element minOccurs="0" name="结束时间" type="xs:dateTime" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="DataType_库存管理" nillable="true" type="tns:DataType_库存管理" />
+  <xs:complexType name="DataType_位置">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:ModelBase">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="X轴" type="xs:decimal" />
+          <xs:element minOccurs="0" name="Y轴" type="xs:decimal" />
+          <xs:element minOccurs="0" name="Z轴" type="xs:decimal" />
+          <xs:element minOccurs="0" name="仓库编码" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="位置名称" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="位置状态" type="xs:int" />
+          <xs:element minOccurs="0" name="位置类型" type="xs:int" />
+          <xs:element minOccurs="0" name="位置编码" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="可用状态" type="xs:boolean" />
+          <xs:element minOccurs="0" name="备注" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="通信代码" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="DataType_位置" nillable="true" type="tns:DataType_位置" />
+  <xs:complexType name="DataType_操作台">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:ModelBase">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="仓库编码" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="位置编码" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="备注" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="操作台名称" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="操作台编码" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="DataType_操作台" nillable="true" type="tns:DataType_操作台" />
+  <xs:complexType name="DataType_车辆">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:ModelBase">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="仓库编码" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="备注" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="车辆初始化位置" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="车辆名称" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="车辆状态" type="xs:int" />
+          <xs:element minOccurs="0" name="车辆类型" type="xs:int" />
+          <xs:element minOccurs="0" name="车辆编码" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="车辆通信代码" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="DataType_车辆" nillable="true" type="tns:DataType_车辆" />
+  <xs:complexType name="DataType_状态">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:ModelBase">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="ID" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="仓库编码" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="位置编码" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="物理编码" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="状态" type="xs:int" />
+          <xs:element minOccurs="0" name="类型" type="xs:int" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="DataType_状态" nillable="true" type="tns:DataType_状态" />
+  <xs:complexType name="DataType_IP">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:ModelBase">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="IP" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="PORT" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="仓库编码" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="DataType_IP" nillable="true" type="tns:DataType_IP" />
+  <xs:complexType name="DataType_动作">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:ModelBase">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="MxDataXML" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="动作状态" type="xs:boolean" />
+          <xs:element minOccurs="0" name="动作类型" type="xs:int" />
+          <xs:element minOccurs="0" name="动作编码" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="单据编码" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="开始时间" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="所有未审核" type="xs:boolean" />
+          <xs:element minOccurs="0" name="操作人" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="结束时间" type="xs:dateTime" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="DataType_动作" nillable="true" type="tns:DataType_动作" />
+  <xs:complexType name="DataType_指令">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:ModelBase">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="MxDataXML" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="仓库编码" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="动作编码" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="备注" type="xs:int" />
+          <xs:element minOccurs="0" name="指令类型" type="xs:int" />
+          <xs:element minOccurs="0" name="指令编码" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="目的位置编码" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="货架编码" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="起始位置编码" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="车辆编码" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="DataType_指令" nillable="true" type="tns:DataType_指令" />
+</xs:schema>

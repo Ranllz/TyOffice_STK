@@ -1,0 +1,166 @@
+by 周公by 周公by 周公by 周公by 周公by 周公by 周公by 周公by 周公by 周公by 周公by 周公by 周公by 周公by 周公by 周公by 周公by 周公by 周公by 周公by 周公by 周公by 周公by 周公by 周公by 周公by 周公by 周公by 周公by 周公by 周公by 周公by 周公by 周公by 周公by 周公by 周公by 周公by 周公by 周公by 周公by 周公by 周公by 周公by 周公by 周公by 周公by 周公by 周公by 周公by 周公by 周公by 周公by 周公by 周公by 周公by 周公by 周公by 周公by 周公by 周公by 周公by 周公by 周公by 周公by 周公by 周公by 周公by 周公by 周公by 周公by 周公by 周公by 周公by 周公by 周公by 周公by 周公by 周公by 周公by 周公by 周公by 周公by 周公by 周公by 周公by 周公by 周公by 周公by 周公by 周公by 周公by 周公by 周公by 周公by 周公by 周公记录时间：2011-08-22 17:46:29,674 线程ID:[33] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！
+记录时间：2011-08-22 17:46:29,674 线程ID:[33] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！
+记录时间：2011-08-22 17:46:46,420 线程ID:[34] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！
+记录时间：2011-08-22 17:46:46,420 线程ID:[34] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！
+记录时间：2011-08-22 17:47:22,951 线程ID:[33] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！
+记录时间：2011-08-22 17:47:22,951 线程ID:[33] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！
+记录时间：2011-08-22 17:47:24,353 线程ID:[34] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！
+记录时间：2011-08-22 17:47:24,353 线程ID:[34] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！
+记录时间：2011-08-22 17:47:28,442 线程ID:[33] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！
+记录时间：2011-08-22 17:47:28,442 线程ID:[33] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！
+记录时间：2011-08-22 17:47:47,306 线程ID:[34] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！
+记录时间：2011-08-22 17:47:47,306 线程ID:[34] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！
+记录时间：2011-08-22 17:47:48,510 线程ID:[33] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！
+记录时间：2011-08-22 17:47:48,510 线程ID:[33] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！
+记录时间：2011-08-22 17:47:52,922 线程ID:[34] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！
+记录时间：2011-08-22 17:47:52,922 线程ID:[34] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！
+记录时间：2011-08-22 17:56:23,781 线程ID:[34] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....begin
+记录时间：2011-08-22 17:56:23,781 线程ID:[34] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....begin
+记录时间：2011-08-22 17:56:23,781 线程ID:[34] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....UpLoad to DB ...
+记录时间：2011-08-22 17:56:23,781 线程ID:[34] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....UpLoad to DB ...
+记录时间：2011-08-22 17:56:26,271 线程ID:[34] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....UpLoad to DB ... OK!
+记录时间：2011-08-22 17:56:26,271 线程ID:[34] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....UpLoad to DB ... OK!
+记录时间：2011-08-22 17:56:26,271 线程ID:[34] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....end
+记录时间：2011-08-22 17:56:26,271 线程ID:[34] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....end
+记录时间：2011-08-22 17:56:48,241 线程ID:[47] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....DownLoad to DB ...
+记录时间：2011-08-22 17:56:48,241 线程ID:[47] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....DownLoad to DB ...
+记录时间：2011-08-22 17:56:48,241 线程ID:[47] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....DownLoad to DB ... 
+记录时间：2011-08-22 17:56:48,241 线程ID:[47] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....DownLoad to DB ... 
+记录时间：2011-08-22 17:56:48,275 线程ID:[47] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....DownLoad to DB ... OK!
+记录时间：2011-08-22 17:56:48,275 线程ID:[47] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....DownLoad to DB ... OK!
+记录时间：2011-08-22 17:56:48,275 线程ID:[47] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....end
+记录时间：2011-08-22 17:56:48,275 线程ID:[47] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....end
+记录时间：2011-08-22 17:56:56,392 线程ID:[46] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....DownLoad to DB ...
+记录时间：2011-08-22 17:56:56,392 线程ID:[46] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....DownLoad to DB ...
+记录时间：2011-08-22 17:56:56,392 线程ID:[46] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....DownLoad to DB ... 
+记录时间：2011-08-22 17:56:56,392 线程ID:[46] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....DownLoad to DB ... 
+记录时间：2011-08-22 17:56:56,406 线程ID:[46] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....DownLoad to DB ... OK!
+记录时间：2011-08-22 17:56:56,406 线程ID:[46] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....DownLoad to DB ... OK!
+记录时间：2011-08-22 17:56:56,406 线程ID:[46] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....end
+记录时间：2011-08-22 17:56:56,406 线程ID:[46] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....end
+记录时间：2011-08-22 17:57:50,761 线程ID:[49] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....DownLoad to DB ...
+记录时间：2011-08-22 17:57:50,761 线程ID:[49] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....DownLoad to DB ...
+记录时间：2011-08-22 17:57:50,761 线程ID:[49] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....DownLoad to DB ... 
+记录时间：2011-08-22 17:57:50,761 线程ID:[49] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....DownLoad to DB ... 
+记录时间：2011-08-22 17:57:50,775 线程ID:[49] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....DownLoad to DB ... OK!
+记录时间：2011-08-22 17:57:50,775 线程ID:[49] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....DownLoad to DB ... OK!
+记录时间：2011-08-22 17:57:50,775 线程ID:[49] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....end
+记录时间：2011-08-22 17:57:50,775 线程ID:[49] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....end
+记录时间：2011-08-22 17:57:58,736 线程ID:[45] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....DownLoad to DB ...
+记录时间：2011-08-22 17:57:58,736 线程ID:[45] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....DownLoad to DB ...
+记录时间：2011-08-22 17:57:58,737 线程ID:[45] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....DownLoad to DB ... 
+记录时间：2011-08-22 17:57:58,737 线程ID:[45] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....DownLoad to DB ... 
+记录时间：2011-08-22 17:57:58,751 线程ID:[45] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....DownLoad to DB ... OK!
+记录时间：2011-08-22 17:57:58,751 线程ID:[45] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....DownLoad to DB ... OK!
+记录时间：2011-08-22 17:57:58,751 线程ID:[45] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....end
+记录时间：2011-08-22 17:57:58,751 线程ID:[45] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....end
+记录时间：2011-08-22 18:02:47,977 线程ID:[49] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！
+记录时间：2011-08-22 18:02:47,977 线程ID:[49] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！
+记录时间：2011-08-22 18:02:51,880 线程ID:[49] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....begin
+记录时间：2011-08-22 18:02:51,880 线程ID:[49] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....begin
+记录时间：2011-08-22 18:02:51,880 线程ID:[49] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....UpLoad to DB ...
+记录时间：2011-08-22 18:02:51,880 线程ID:[49] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....UpLoad to DB ...
+记录时间：2011-08-22 18:02:54,138 线程ID:[49] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....UpLoad to DB ... OK!
+记录时间：2011-08-22 18:02:54,138 线程ID:[49] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....UpLoad to DB ... OK!
+记录时间：2011-08-22 18:02:54,138 线程ID:[49] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....end
+记录时间：2011-08-22 18:02:54,138 线程ID:[49] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....end
+记录时间：2011-08-22 18:02:56,087 线程ID:[52] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....DownLoad to DB ...
+记录时间：2011-08-22 18:02:56,087 线程ID:[52] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....DownLoad to DB ...
+记录时间：2011-08-22 18:02:56,087 线程ID:[52] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....DownLoad to DB ... 
+记录时间：2011-08-22 18:02:56,087 线程ID:[52] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....DownLoad to DB ... 
+记录时间：2011-08-22 18:02:56,101 线程ID:[52] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....DownLoad to DB ... OK!
+记录时间：2011-08-22 18:02:56,101 线程ID:[52] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....DownLoad to DB ... OK!
+记录时间：2011-08-22 18:02:56,101 线程ID:[52] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....end
+记录时间：2011-08-22 18:02:56,101 线程ID:[52] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....end
+by 周公记录时间：2011-08-22 18:29:36,129 线程ID:[7] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....begin
+记录时间：2011-08-22 18:29:36,129 线程ID:[7] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....begin
+记录时间：2011-08-22 18:29:36,160 线程ID:[7] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....UpLoad to DB ...
+记录时间：2011-08-22 18:29:36,160 线程ID:[7] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....UpLoad to DB ...
+记录时间：2011-08-22 18:29:37,732 线程ID:[7] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....UpLoad to DB ... OK!
+记录时间：2011-08-22 18:29:37,732 线程ID:[7] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....UpLoad to DB ... OK!
+记录时间：2011-08-22 18:29:37,734 线程ID:[7] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....end
+记录时间：2011-08-22 18:29:37,734 线程ID:[7] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....end
+记录时间：2011-08-22 18:30:09,955 线程ID:[22] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....begin
+记录时间：2011-08-22 18:30:09,955 线程ID:[22] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....begin
+记录时间：2011-08-22 18:30:09,956 线程ID:[22] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....UpLoad to DB ...
+记录时间：2011-08-22 18:30:09,956 线程ID:[22] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....UpLoad to DB ...
+记录时间：2011-08-22 18:30:40,473 线程ID:[22] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....UpLoad to DB ... OK!
+记录时间：2011-08-22 18:30:40,473 线程ID:[22] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....UpLoad to DB ... OK!
+记录时间：2011-08-22 18:30:40,474 线程ID:[22] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....end
+记录时间：2011-08-22 18:30:40,474 线程ID:[22] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....end
+记录时间：2011-08-22 18:31:44,958 线程ID:[11] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....begin
+记录时间：2011-08-22 18:31:44,958 线程ID:[11] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....begin
+记录时间：2011-08-22 18:31:44,959 线程ID:[11] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....UpLoad to DB ...
+记录时间：2011-08-22 18:31:44,959 线程ID:[11] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....UpLoad to DB ...
+记录时间：2011-08-22 18:32:48,401 线程ID:[11] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....UpLoad to DB ... OK!
+记录时间：2011-08-22 18:32:48,401 线程ID:[11] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....UpLoad to DB ... OK!
+记录时间：2011-08-22 18:32:48,402 线程ID:[11] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....end
+记录时间：2011-08-22 18:32:48,402 线程ID:[11] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....end
+记录时间：2011-08-22 18:36:52,159 线程ID:[21] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....DownLoad to DB ...
+记录时间：2011-08-22 18:36:52,159 线程ID:[21] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....DownLoad to DB ...
+记录时间：2011-08-22 18:36:52,160 线程ID:[21] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....DownLoad to DB ... 
+记录时间：2011-08-22 18:36:52,160 线程ID:[21] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....DownLoad to DB ... 
+记录时间：2011-08-22 18:36:52,807 线程ID:[21] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....DownLoad to DB ... OK!
+记录时间：2011-08-22 18:36:52,807 线程ID:[21] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....DownLoad to DB ... OK!
+记录时间：2011-08-22 18:36:52,808 线程ID:[21] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....end
+记录时间：2011-08-22 18:36:52,808 线程ID:[21] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....end
+by 周公记录时间：2011-08-23 08:41:29,301 线程ID:[5] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！
+记录时间：2011-08-23 08:41:29,301 线程ID:[5] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！
+记录时间：2011-08-23 08:41:53,601 线程ID:[17] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！
+记录时间：2011-08-23 08:41:53,601 线程ID:[17] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！
+记录时间：2011-08-23 08:42:07,210 线程ID:[17] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....begin
+记录时间：2011-08-23 08:42:07,210 线程ID:[17] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....begin
+记录时间：2011-08-23 08:42:07,210 线程ID:[17] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....UpLoad to DB ...
+记录时间：2011-08-23 08:42:07,210 线程ID:[17] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....UpLoad to DB ...
+记录时间：2011-08-23 08:42:18,887 线程ID:[17] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....UpLoad to DB ... OK!
+记录时间：2011-08-23 08:42:18,887 线程ID:[17] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....UpLoad to DB ... OK!
+记录时间：2011-08-23 08:42:18,887 线程ID:[17] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....end
+记录时间：2011-08-23 08:42:18,887 线程ID:[17] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....end
+记录时间：2011-08-23 08:42:20,930 线程ID:[5] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....DownLoad to DB ...
+记录时间：2011-08-23 08:42:20,930 线程ID:[5] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....DownLoad to DB ...
+记录时间：2011-08-23 08:42:20,930 线程ID:[5] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....DownLoad to DB ... 
+记录时间：2011-08-23 08:42:20,930 线程ID:[5] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....DownLoad to DB ... 
+记录时间：2011-08-23 08:42:20,949 线程ID:[5] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....DownLoad to DB ... OK!
+记录时间：2011-08-23 08:42:20,949 线程ID:[5] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....DownLoad to DB ... OK!
+记录时间：2011-08-23 08:42:20,949 线程ID:[5] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....end
+记录时间：2011-08-23 08:42:20,949 线程ID:[5] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....end
+by 周公记录时间：2011-08-23 20:37:01,178 线程ID:[7] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....begin
+记录时间：2011-08-23 20:37:01,178 线程ID:[7] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....begin
+记录时间：2011-08-23 20:37:01,213 线程ID:[7] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....UpLoad to DB ...
+记录时间：2011-08-23 20:37:01,213 线程ID:[7] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....UpLoad to DB ...
+记录时间：2011-08-23 20:38:55,342 线程ID:[7] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....UpLoad to DB ... OK!
+记录时间：2011-08-23 20:38:55,342 线程ID:[7] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....UpLoad to DB ... OK!
+记录时间：2011-08-23 20:38:55,345 线程ID:[7] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....end
+记录时间：2011-08-23 20:38:55,345 线程ID:[7] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....end
+by 周公by 周公by 周公by 周公by 周公by 周公by 周公by 周公记录时间：2011-08-24 01:37:30,670 线程ID:[20] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....begin
+记录时间：2011-08-24 01:37:30,670 线程ID:[20] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....begin
+记录时间：2011-08-24 01:37:30,696 线程ID:[20] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....UpLoad to DB ...
+记录时间：2011-08-24 01:37:30,696 线程ID:[20] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....UpLoad to DB ...
+记录时间：2011-08-24 01:37:30,706 线程ID:[20] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....UpLoad to DB ... OK!
+记录时间：2011-08-24 01:37:30,706 线程ID:[20] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....UpLoad to DB ... OK!
+记录时间：2011-08-24 01:37:30,708 线程ID:[20] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....end
+记录时间：2011-08-24 01:37:30,708 线程ID:[20] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....end
+记录时间：2011-08-24 01:40:43,300 线程ID:[15] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....begin
+记录时间：2011-08-24 01:40:43,300 线程ID:[15] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....begin
+记录时间：2011-08-24 01:40:43,302 线程ID:[15] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....UpLoad to DB ...
+记录时间：2011-08-24 01:40:43,302 线程ID:[15] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....UpLoad to DB ...
+记录时间：2011-08-24 01:40:43,792 线程ID:[15] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....UpLoad to DB ... OK!
+记录时间：2011-08-24 01:40:43,792 线程ID:[15] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....UpLoad to DB ... OK!
+记录时间：2011-08-24 01:40:43,793 线程ID:[15] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....end
+记录时间：2011-08-24 01:40:43,793 线程ID:[15] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....end
+记录时间：2011-08-24 01:41:31,809 线程ID:[18] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....begin
+记录时间：2011-08-24 01:41:31,809 线程ID:[18] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....begin
+记录时间：2011-08-24 01:41:31,810 线程ID:[18] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....UpLoad to DB ...
+记录时间：2011-08-24 01:41:31,810 线程ID:[18] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....UpLoad to DB ...
+记录时间：2011-08-24 01:41:31,818 线程ID:[18] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....UpLoad to DB ... OK!
+记录时间：2011-08-24 01:41:31,818 线程ID:[18] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....UpLoad to DB ... OK!
+记录时间：2011-08-24 01:41:31,819 线程ID:[18] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....end
+记录时间：2011-08-24 01:41:31,819 线程ID:[18] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....end
+by 周公记录时间：2011-08-24 01:44:31,966 线程ID:[34] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....begin
+记录时间：2011-08-24 01:44:31,966 线程ID:[34] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....begin
+记录时间：2011-08-24 01:44:31,986 线程ID:[34] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....UpLoad to DB ...
+记录时间：2011-08-24 01:44:31,986 线程ID:[34] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....UpLoad to DB ...
+记录时间：2011-08-24 01:44:37,585 线程ID:[34] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....UpLoad to DB ... OK!
+记录时间：2011-08-24 01:44:37,585 线程ID:[34] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....UpLoad to DB ... OK!
+记录时间：2011-08-24 01:44:37,587 线程ID:[34] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....end
+记录时间：2011-08-24 01:44:37,587 线程ID:[34] 日志级别：INFO  出错类：LogFileAppender property:[(null)] - 错误描述：这是服务器端的日志信息！TransferDBFile....end

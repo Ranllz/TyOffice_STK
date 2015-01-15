@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectView>ProjectFiles</ProjectView>
+    <PublishUrlHistory>D:\TyOffice_STK\Publish\Client\|D:\TY_ASRS\Publish\Client\|D:\GLG_DXMY\Publish\Client\|D:\GLG_DXMY\Publish\|D:\TY_JXC_HS\Publish\Client\</PublishUrlHistory>
+    <InstallUrlHistory>http://192.168.1.23/TyOffice/AppExt/STK/Client/|http://192.168.1.2/TyOffice/AppExt/STK/Client/|http://192.168.1.23/TyOffice_STK/Client/|http://192.168.1.23/TY_ASRS/Client/|http://192.168.1.2/TyOffice/AppExt/STK//WS_ASRS.svc/</InstallUrlHistory>
+    <SupportUrlHistory>http://www.glg.com.cn|http://ffxa1507.netshare.org.cn</SupportUrlHistory>
+    <UpdateUrlHistory>http://202.102.238.45/dnsoft/jxc/Client/|http://10.8.4.127/dnsoft/gbjy/Client/|http://202.102.238.45:8080/dnsoft/gbjy/Client/</UpdateUrlHistory>
+    <BootstrapperUrlHistory />
+    <ErrorReportUrlHistory />
+    <FallbackCulture>zh-CN</FallbackCulture>
+    <VerifyUploadedFiles>false</VerifyUploadedFiles>
+  </PropertyGroup>
+  <PropertyGroup>
+    <EnableSecurityDebugging>false</EnableSecurityDebugging>
+  </PropertyGroup>
+</Project>

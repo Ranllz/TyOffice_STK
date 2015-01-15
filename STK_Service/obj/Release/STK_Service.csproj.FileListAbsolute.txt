@@ -1,0 +1,14 @@
+D:\TyOffice_JXC\Source\JXC_Service\bin\JXC_Service.dll
+D:\TyOffice_JXC\Source\JXC_Service\bin\JXC_Service.pdb
+D:\TyOffice_JXC\Source\JXC_Service\obj\Release\JXC_Service.dll
+D:\TyOffice_JXC\Source\JXC_Service\obj\Release\JXC_Service.pdb
+D:\TyOffice_STK\Source\ASRS_Service\obj\Release\STK_Service.csprojResolveAssemblyReference.cache
+D:\TyOffice_STK\Source\ASRS_Service\bin\STK_Service.dll
+D:\TyOffice_STK\Source\ASRS_Service\bin\STK_Service.pdb
+D:\TyOffice_STK\Source\ASRS_Service\obj\Release\STK_Service.dll
+D:\TyOffice_STK\Source\ASRS_Service\obj\Release\STK_Service.pdb
+D:\TyOffice_STK\Source\STK_Service\bin\STK_Service.dll
+D:\TyOffice_STK\Source\STK_Service\bin\STK_Service.pdb
+D:\TyOffice_STK\Source\STK_Service\obj\Release\STK_Service.csprojResolveAssemblyReference.cache
+D:\TyOffice_STK\Source\STK_Service\obj\Release\STK_Service.dll
+D:\TyOffice_STK\Source\STK_Service\obj\Release\STK_Service.pdb

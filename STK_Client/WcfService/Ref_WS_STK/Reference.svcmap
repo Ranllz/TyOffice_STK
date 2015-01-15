@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="9425c9d0-0bd9-4661-bdc8-fb107822756d" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://127.0.0.1/TyOffice/AppExt/STK/Service/WS_STK.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="WS_STK43.xsd" MetadataType="Schema" ID="6fd54280-275c-421a-bffc-32c4088dbf5b" SourceId="1" SourceUrl="http://127.0.0.1/TyOffice/AppExt/STK/Service/WS_STK.svc?xsd=xsd2" />
+    <MetadataFile FileName="WS_STK41.xsd" MetadataType="Schema" ID="d0c0442d-a6cd-4254-a5fa-07192be63fbf" SourceId="1" SourceUrl="http://127.0.0.1/TyOffice/AppExt/STK/Service/WS_STK.svc?xsd=xsd0" />
+    <MetadataFile FileName="WS_STK1.wsdl" MetadataType="Wsdl" ID="a9f0ce6a-9f82-443a-99d3-bde857e5a510" SourceId="1" SourceUrl="http://127.0.0.1/TyOffice/AppExt/STK/Service/WS_STK.svc?wsdl" />
+    <MetadataFile FileName="WS_STK4.xsd" MetadataType="Schema" ID="a8397b56-ba9e-4ca6-90d0-eb832b43e5af" SourceId="1" SourceUrl="http://127.0.0.1/TyOffice/AppExt/STK/Service/WS_STK.svc?xsd=xsd3" />
+    <MetadataFile FileName="WS_STK1.disco" MetadataType="Disco" ID="69cf4856-3ef1-48d9-8f2b-c35ef4075a7d" SourceId="1" SourceUrl="http://127.0.0.1/TyOffice/AppExt/STK/Service/WS_STK.svc?disco" />
+    <MetadataFile FileName="WS_STK42.xsd" MetadataType="Schema" ID="f6332dea-8645-4833-b8e2-2f18182dc968" SourceId="1" SourceUrl="http://127.0.0.1/TyOffice/AppExt/STK/Service/WS_STK.svc?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

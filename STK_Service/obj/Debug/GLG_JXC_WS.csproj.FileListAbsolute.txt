@@ -1,0 +1,11 @@
+D:\GLG_JXC\Source\DN_GBJY_WS\bin\GLG_JXC_WS.dll
+D:\GLG_JXC\Source\DN_GBJY_WS\bin\GLG_JXC_WS.pdb
+D:\GLG_JXC\Source\DN_GBJY_WS\bin\log4net.xml
+D:\GLG_JXC\Source\DN_GBJY_WS\obj\Debug\ResolveAssemblyReference.cache
+D:\GLG_JXC\Source\DN_GBJY_WS\obj\Debug\GLG_JXC_WS.dll
+D:\GLG_JXC\Source\DN_GBJY_WS\obj\Debug\GLG_JXC_WS.pdb
+D:\GLG_JXC\Source\GLG_JXC_WS\bin\GLG_JXC_WS.dll
+D:\GLG_JXC\Source\GLG_JXC_WS\bin\GLG_JXC_WS.pdb
+D:\GLG_JXC\Source\GLG_JXC_WS\obj\Debug\ResolveAssemblyReference.cache
+D:\GLG_JXC\Source\GLG_JXC_WS\obj\Debug\GLG_JXC_WS.dll
+D:\GLG_JXC\Source\GLG_JXC_WS\obj\Debug\GLG_JXC_WS.pdb

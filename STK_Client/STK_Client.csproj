@@ -1,0 +1,655 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B40E1FAA-74EF-480E-8C5F-E0FF210E0855}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>STK_Client</RootNamespace>
+    <AssemblyName>STK_Client</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <PublishUrl>D:\TyOffice_STK\Publish\Client\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>true</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <InstallUrl>http://192.168.1.23/TyOffice/AppExt/STK/Client/</InstallUrl>
+    <SupportUrl>http://www.glg.com.cn</SupportUrl>
+    <ProductName>物资管理系统</ProductName>
+    <PublisherName>GLG.SOFT</PublisherName>
+    <SuiteName>GLG库存管理系统</SuiteName>
+    <MinimumRequiredVersion>1.2.23.0114</MinimumRequiredVersion>
+    <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
+    <WebPage>publish.htm</WebPage>
+    <TrustUrlParameters>true</TrustUrlParameters>
+    <ApplicationRevision>127</ApplicationRevision>
+    <ApplicationVersion>1.2.23.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <CreateDesktopShortcut>true</CreateDesktopShortcut>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>network_app.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>STK_Client.Program</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>88BE2BE32165EA811FF89F2A40149F7E30BDF40E</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>DN_GBJY_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="TY.Control, Version=2.2.0.2014, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\TY.Control.dll</HintPath>
+    </Reference>
+    <Reference Include="TY.Core, Version=2.2.0.2014, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\TY.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="TY.Excel, Version=2.2.0.2014, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\TY.Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="TY.Grid, Version=2.2.0.2014, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\TY.Grid.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="M01_基础设置\BAS_存货设置_Select.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="M01_基础设置\BAS_存货设置_Select.Designer.cs">
+      <DependentUpon>BAS_存货设置_Select.cs</DependentUpon>
+    </Compile>
+    <Compile Include="M03_期末管理\STK_期末结账_Select.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="M03_期末管理\STK_期末结账_Select.Designer.cs">
+      <DependentUpon>STK_期末结账_Select.cs</DependentUpon>
+    </Compile>
+    <Compile Include="M01_基础设置\BAS_供应商设置.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="M01_基础设置\BAS_供应商设置.designer.cs">
+      <DependentUpon>BAS_供应商设置.cs</DependentUpon>
+    </Compile>
+    <Compile Include="M01_基础设置\BAS_供应商设置_Editor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="M01_基础设置\BAS_供应商设置_Editor.designer.cs">
+      <DependentUpon>BAS_供应商设置_Editor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="M03_期末管理\STK_期末结账.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="M03_期末管理\STK_期末结账.Designer.cs">
+      <DependentUpon>STK_期末结账.cs</DependentUpon>
+    </Compile>
+    <Compile Include="M04_库存报表\STK_库存总账.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="M04_库存报表\STK_库存总账.Designer.cs">
+      <DependentUpon>STK_库存总账.cs</DependentUpon>
+    </Compile>
+    <Compile Include="M01_基础设置\BAS_存货设置_选择仓库.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="M01_基础设置\BAS_存货设置_选择仓库.Designer.cs">
+      <DependentUpon>BAS_存货设置_选择仓库.cs</DependentUpon>
+    </Compile>
+    <Compile Include="M01_基础设置\BAS_期初库存设置.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="M01_基础设置\BAS_期初库存设置.Designer.cs">
+      <DependentUpon>BAS_期初库存设置.cs</DependentUpon>
+    </Compile>
+    <Compile Include="M02_库存管理\STK_库存入库_Editor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="M02_库存管理\STK_库存入库_Editor.Designer.cs">
+      <DependentUpon>STK_库存入库_Editor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="M02_库存管理\STK_库存入库.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="M02_库存管理\STK_库存入库.Designer.cs">
+      <DependentUpon>STK_库存入库.cs</DependentUpon>
+    </Compile>
+    <Compile Include="M01_基础设置\BAS_存货类别设置_修改状态.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="M01_基础设置\BAS_存货类别设置_修改状态.Designer.cs">
+      <DependentUpon>BAS_存货类别设置_修改状态.cs</DependentUpon>
+    </Compile>
+    <Compile Include="M01_基础设置\BAS_存货类别设置_Select.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="M01_基础设置\BAS_存货类别设置_Select.Designer.cs">
+      <DependentUpon>BAS_存货类别设置_Select.cs</DependentUpon>
+    </Compile>
+    <Compile Include="M01_基础设置\BAS_存货类别设置.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="M01_基础设置\BAS_存货类别设置.Designer.cs">
+      <DependentUpon>BAS_存货类别设置.cs</DependentUpon>
+    </Compile>
+    <Compile Include="M01_基础设置\BAS_存货类别设置_Editor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="M01_基础设置\BAS_存货类别设置_Editor.Designer.cs">
+      <DependentUpon>BAS_存货类别设置_Editor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="M01_基础设置\BAS_货架设置_Select.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="M01_基础设置\BAS_货架设置_Select.Designer.cs">
+      <DependentUpon>BAS_货架设置_Select.cs</DependentUpon>
+    </Compile>
+    <Compile Include="M01_基础设置\BAS_存货设置_修改状态.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="M01_基础设置\BAS_存货设置_修改状态.Designer.cs">
+      <DependentUpon>BAS_存货设置_修改状态.cs</DependentUpon>
+    </Compile>
+    <Compile Include="M01_基础设置\BAS_仓库设置.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="M01_基础设置\BAS_仓库设置.Designer.cs">
+      <DependentUpon>BAS_仓库设置.cs</DependentUpon>
+    </Compile>
+    <Compile Include="M01_基础设置\BAS_仓库设置_Editor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="M01_基础设置\BAS_仓库设置_Editor.Designer.cs">
+      <DependentUpon>BAS_仓库设置_Editor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="M01_基础设置\BAS_储物箱设置.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="M01_基础设置\BAS_储物箱设置.Designer.cs">
+      <DependentUpon>BAS_储物箱设置.cs</DependentUpon>
+    </Compile>
+    <Compile Include="M01_基础设置\BAS_储物箱设置_Bind.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="M01_基础设置\BAS_储物箱设置_Bind.Designer.cs">
+      <DependentUpon>BAS_储物箱设置_Bind.cs</DependentUpon>
+    </Compile>
+    <Compile Include="M01_基础设置\BAS_储物箱设置_Editor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="M01_基础设置\BAS_储物箱设置_Editor.Designer.cs">
+      <DependentUpon>BAS_储物箱设置_Editor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="M01_基础设置\BAS_存货设置.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="M01_基础设置\BAS_存货设置.Designer.cs">
+      <DependentUpon>BAS_存货设置.cs</DependentUpon>
+    </Compile>
+    <Compile Include="M01_基础设置\BAS_存货设置_Editor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="M01_基础设置\BAS_存货设置_Editor.Designer.cs">
+      <DependentUpon>BAS_存货设置_Editor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="M01_基础设置\BAS_货架设置.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="M01_基础设置\BAS_货架设置.Designer.cs">
+      <DependentUpon>BAS_货架设置.cs</DependentUpon>
+    </Compile>
+    <Compile Include="M01_基础设置\BAS_货架设置_Editor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="M01_基础设置\BAS_货架设置_Editor.Designer.cs">
+      <DependentUpon>BAS_货架设置_Editor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="M02_库存管理\STK_库存入库_SetCnt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="M02_库存管理\STK_库存入库_SetCnt.Designer.cs">
+      <DependentUpon>STK_库存入库_SetCnt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="M02_库存管理\STK_库存出库.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="M02_库存管理\STK_库存出库.Designer.cs">
+      <DependentUpon>STK_库存出库.cs</DependentUpon>
+    </Compile>
+    <Compile Include="M02_库存管理\STK_库存出库_Editor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="M02_库存管理\STK_库存出库_Editor.Designer.cs">
+      <DependentUpon>STK_库存出库_Editor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="M04_库存报表\STK_库存总账_明细.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="M04_库存报表\STK_库存总账_明细.Designer.cs">
+      <DependentUpon>STK_库存总账_明细.cs</DependentUpon>
+    </Compile>
+    <Compile Include="M04_库存报表\STK_库存分布.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="M04_库存报表\STK_库存分布.Designer.cs">
+      <DependentUpon>STK_库存分布.cs</DependentUpon>
+    </Compile>
+    <Compile Include="M04_库存报表\STK_库存明细账.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="M04_库存报表\STK_库存明细账.Designer.cs">
+      <DependentUpon>STK_库存明细账.cs</DependentUpon>
+    </Compile>
+    <Compile Include="M04_库存报表\STK_库存账_Query.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="M04_库存报表\STK_库存账_Query.Designer.cs">
+      <DependentUpon>STK_库存账_Query.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main\Man_About.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main\Man_About.designer.cs">
+      <DependentUpon>Man_About.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main\Man_Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main\Man_Main.designer.cs">
+      <DependentUpon>Man_Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main\Man_Param.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main\Man_Param.Designer.cs">
+      <DependentUpon>Man_Param.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main\Man_UserMngr.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main\Man_UserMngr.Designer.cs">
+      <DependentUpon>Man_UserMngr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main\Man_UserMngr_Editor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main\Man_UserMngr_Editor.Designer.cs">
+      <DependentUpon>Man_UserMngr_Editor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main\Man_UserPswd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main\Man_UserPswd.Designer.cs">
+      <DependentUpon>Man_UserPswd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main\Man_UserRole.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main\Man_UserRole.Designer.cs">
+      <DependentUpon>Man_UserRole.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main\Man_UserRole_Editor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main\Man_UserRole_Editor.Designer.cs">
+      <DependentUpon>Man_UserRole_Editor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Common\Cmn_WaitingBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Common\Cmn_WaitingBox.designer.cs">
+      <DependentUpon>Cmn_WaitingBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Common\Cmn_DataProtection.cs" />
+    <Compile Include="Main\Man_Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main\Man_Login.Designer.cs">
+      <DependentUpon>Man_Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Common\AppServer.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="WcfService\Ref_WS_STK\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="M01_基础设置\BAS_存货设置_Select.resx">
+      <DependentUpon>BAS_存货设置_Select.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="M03_期末管理\STK_期末结账_Select.resx">
+      <DependentUpon>STK_期末结账_Select.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="M01_基础设置\BAS_供应商设置.resx">
+      <DependentUpon>BAS_供应商设置.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="M01_基础设置\BAS_供应商设置_Editor.resx">
+      <DependentUpon>BAS_供应商设置_Editor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="M03_期末管理\STK_期末结账.resx">
+      <DependentUpon>STK_期末结账.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="M04_库存报表\STK_库存总账.resx">
+      <DependentUpon>STK_库存总账.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="M01_基础设置\BAS_存货设置_选择仓库.resx">
+      <DependentUpon>BAS_存货设置_选择仓库.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="M01_基础设置\BAS_期初库存设置.resx">
+      <DependentUpon>BAS_期初库存设置.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="M02_库存管理\STK_库存入库_Editor.resx">
+      <DependentUpon>STK_库存入库_Editor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="M02_库存管理\STK_库存入库.resx">
+      <DependentUpon>STK_库存入库.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="M01_基础设置\BAS_存货类别设置_修改状态.resx">
+      <DependentUpon>BAS_存货类别设置_修改状态.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="M01_基础设置\BAS_存货类别设置_Select.resx">
+      <DependentUpon>BAS_存货类别设置_Select.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="M01_基础设置\BAS_存货类别设置.resx">
+      <DependentUpon>BAS_存货类别设置.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="M01_基础设置\BAS_存货类别设置_Editor.resx">
+      <DependentUpon>BAS_存货类别设置_Editor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="M01_基础设置\BAS_货架设置_Select.resx">
+      <DependentUpon>BAS_货架设置_Select.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="M01_基础设置\BAS_存货设置_修改状态.resx">
+      <DependentUpon>BAS_存货设置_修改状态.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="M01_基础设置\BAS_仓库设置.resx">
+      <DependentUpon>BAS_仓库设置.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="M01_基础设置\BAS_仓库设置_Editor.resx">
+      <DependentUpon>BAS_仓库设置_Editor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="M01_基础设置\BAS_储物箱设置.resx">
+      <DependentUpon>BAS_储物箱设置.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="M01_基础设置\BAS_储物箱设置_Bind.resx">
+      <DependentUpon>BAS_储物箱设置_Bind.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="M01_基础设置\BAS_储物箱设置_Editor.resx">
+      <DependentUpon>BAS_储物箱设置_Editor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="M01_基础设置\BAS_存货设置.resx">
+      <DependentUpon>BAS_存货设置.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="M01_基础设置\BAS_存货设置_Editor.resx">
+      <DependentUpon>BAS_存货设置_Editor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="M01_基础设置\BAS_货架设置.resx">
+      <DependentUpon>BAS_货架设置.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="M01_基础设置\BAS_货架设置_Editor.resx">
+      <DependentUpon>BAS_货架设置_Editor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="M02_库存管理\STK_库存入库_SetCnt.resx">
+      <DependentUpon>STK_库存入库_SetCnt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="M02_库存管理\STK_库存出库.resx">
+      <DependentUpon>STK_库存出库.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="M02_库存管理\STK_库存出库_Editor.resx">
+      <DependentUpon>STK_库存出库_Editor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="M04_库存报表\STK_库存总账_明细.resx">
+      <DependentUpon>STK_库存总账_明细.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="M04_库存报表\STK_库存分布.resx">
+      <DependentUpon>STK_库存分布.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="M04_库存报表\STK_库存明细账.resx">
+      <DependentUpon>STK_库存明细账.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="M04_库存报表\STK_库存账_Query.resx">
+      <DependentUpon>STK_库存账_Query.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main\Man_About.resx">
+      <DependentUpon>Man_About.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main\Man_Main.resx">
+      <DependentUpon>Man_Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main\Man_Param.resx">
+      <DependentUpon>Man_Param.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main\Man_UserMngr.resx">
+      <DependentUpon>Man_UserMngr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main\Man_UserMngr_Editor.resx">
+      <DependentUpon>Man_UserMngr_Editor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main\Man_UserPswd.resx">
+      <DependentUpon>Man_UserPswd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main\Man_UserRole.resx">
+      <DependentUpon>Man_UserRole.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main\Man_UserRole_Editor.resx">
+      <DependentUpon>Man_UserRole_Editor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Common\Cmn_WaitingBox.resx">
+      <DependentUpon>Cmn_WaitingBox.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main\Man_Login.resx">
+      <DependentUpon>Man_Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Properties\app.manifest" />
+    <None Include="Properties\DataSources\System.Data.DataSet.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="WcfService\Ref_WS_STK\STK_Client.Ref_WS_STK.DataType_Grid.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="WcfService\Ref_WS_STK\STK_Client.Ref_WS_STK.DataType_Param.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="WcfService\Ref_WS_STK\STK_Client.Ref_WS_STK.DataType_Role.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="WcfService\Ref_WS_STK\STK_Client.Ref_WS_STK.DataType_User.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="WcfService\Ref_WS_STK\STK_Client.Ref_WS_STK.DataType_仓库.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="WcfService\Ref_WS_STK\STK_Client.Ref_WS_STK.DataType_会计期间.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="WcfService\Ref_WS_STK\STK_Client.Ref_WS_STK.DataType_供应商.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="WcfService\Ref_WS_STK\STK_Client.Ref_WS_STK.DataType_存货.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="WcfService\Ref_WS_STK\STK_Client.Ref_WS_STK.DataType_存货_类别.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="WcfService\Ref_WS_STK\STK_Client.Ref_WS_STK.DataType_库存管理.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="WcfService\Ref_WS_STK\WS_ASRS1.wsdl" />
+    <None Include="WcfService\Ref_WS_STK\WS_ASRS4.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="WcfService\Ref_WS_STK\WS_ASRS41.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="WcfService\Ref_WS_STK\WS_ASRS42.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="WcfService\Ref_WS_STK\WS_ASRS43.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="WcfService\Ref_WS_STK\WS_STK1.wsdl" />
+    <None Include="WcfService\Ref_WS_STK\WS_STK4.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="WcfService\Ref_WS_STK\WS_STK41.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="WcfService\Ref_WS_STK\WS_STK42.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="WcfService\Ref_WS_STK\WS_STK43.xsd">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="WcfService\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 和 x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.4.5">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 4.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="WcfService\Ref_WS_STK\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="WcfService\Ref_WS_STK\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="WcfService\Ref_WS_STK\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="WcfService\Ref_WS_STK\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\2007627175410791_2.jpg" />
+    <Content Include="network_app.ico" />
+    <None Include="WcfService\Ref_WS_STK\WS_ASRS1.disco" />
+    <None Include="WcfService\Ref_WS_STK\WS_STK1.disco" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

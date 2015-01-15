@@ -1,0 +1,6 @@
+D:\GLG_DXMY\Source\JXC_Service\bin\JXC_Service.dll
+D:\GLG_DXMY\Source\JXC_Service\bin\JXC_Service.pdb
+D:\GLG_DXMY\Source\JXC_Service\bin\TY.Core.dll
+D:\GLG_DXMY\Source\JXC_Service\obj\Release\JXC_Service.csprojResolveAssemblyReference.cache
+D:\GLG_DXMY\Source\JXC_Service\obj\Release\JXC_Service.dll
+D:\GLG_DXMY\Source\JXC_Service\obj\Release\JXC_Service.pdb

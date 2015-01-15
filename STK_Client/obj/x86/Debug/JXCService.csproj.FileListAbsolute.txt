@@ -1,0 +1,4 @@
+D:\GLG_JXC\Source\GLG_JXC\bin\Debug\JXCService.exe.config
+D:\GLG_JXC\Source\GLG_JXC\bin\Debug\GLG_JXC.exe.config
+D:\GLG_JXC\Source\GLG_JXC\obj\x86\Debug\GLG_JXC.exe
+D:\GLG_JXC\Source\GLG_JXC\obj\x86\Debug\GLG_JXC.pdb

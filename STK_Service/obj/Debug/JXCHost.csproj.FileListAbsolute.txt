@@ -1,0 +1,17 @@
+D:\JXCSolution\Source\JXCService\bin\JXCHost.dll
+D:\JXCSolution\Source\JXCService\bin\JXCHost.pdb
+D:\JXCSolution\Source\JXCService\obj\Debug\ResolveAssemblyReference.cache
+D:\JXCSolution\Source\JXCService\obj\Debug\JXCHost.dll
+D:\JXCSolution\Source\JXCService\obj\Debug\JXCHost.pdb
+D:\Glg_JXC\Source\JXCHost\bin\JXCHost.dll
+D:\Glg_JXC\Source\JXCHost\bin\JXCHost.pdb
+D:\Glg_JXC\Source\JXCHost\obj\Debug\ResolveAssemblyReference.cache
+D:\Glg_JXC\Source\JXCHost\obj\Debug\JXCHost.dll
+D:\Glg_JXC\Source\JXCHost\obj\Debug\JXCHost.pdb
+D:\JXCSolution\Source\JXCHost\bin\JXCHost.dll
+D:\JXCSolution\Source\JXCHost\bin\JXCHost.pdb
+D:\JXCSolution\Source\JXCHost\bin\GLGCommon.dll
+D:\JXCSolution\Source\JXCHost\bin\GLGCommon.pdb
+D:\JXCSolution\Source\JXCHost\obj\Debug\ResolveAssemblyReference.cache
+D:\JXCSolution\Source\JXCHost\obj\Debug\JXCHost.dll
+D:\JXCSolution\Source\JXCHost\obj\Debug\JXCHost.pdb

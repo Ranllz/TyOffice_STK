@@ -1,0 +1,10 @@
+D:\TY_ASRS\Source\ASRS_Service\obj\Release\ASRS_Service.csprojResolveAssemblyReference.cache
+D:\TY_ASRS\Source\ASRS_Service\bin\ASRS_Service.dll
+D:\TY_ASRS\Source\ASRS_Service\bin\ASRS_Service.pdb
+D:\TY_ASRS\Source\ASRS_Service\obj\Release\ASRS_Service.dll
+D:\TY_ASRS\Source\ASRS_Service\obj\Release\ASRS_Service.pdb
+D:\TY_ASRS\Ver1.1.8\TY_ASRS_20141111190915\Source\ASRS_Service\bin\ASRS_Service.dll
+D:\TY_ASRS\Ver1.1.8\TY_ASRS_20141111190915\Source\ASRS_Service\bin\ASRS_Service.pdb
+D:\TY_ASRS\Ver1.1.8\TY_ASRS_20141111190915\Source\ASRS_Service\obj\Release\ASRS_Service.csprojResolveAssemblyReference.cache
+D:\TY_ASRS\Ver1.1.8\TY_ASRS_20141111190915\Source\ASRS_Service\obj\Release\ASRS_Service.dll
+D:\TY_ASRS\Ver1.1.8\TY_ASRS_20141111190915\Source\ASRS_Service\obj\Release\ASRS_Service.pdb

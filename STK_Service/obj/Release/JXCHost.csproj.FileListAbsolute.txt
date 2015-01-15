@@ -1,0 +1,5 @@
+D:\JXCSolution\Source\JXCHost\bin\JXCHost.dll
+D:\JXCSolution\Source\JXCHost\bin\JXCHost.pdb
+D:\JXCSolution\Source\JXCHost\obj\Release\ResolveAssemblyReference.cache
+D:\JXCSolution\Source\JXCHost\obj\Release\JXCHost.dll
+D:\JXCSolution\Source\JXCHost\obj\Release\JXCHost.pdb

@@ -1,0 +1,751 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="WS_STK" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsp:Policy wsu:Id="BasicHttpBinding_IWS_STK_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <wsoma:OptimizedMimeSerialization xmlns:wsoma="http://schemas.xmlsoap.org/ws/2004/09/policy/optimizedmimeserialization" />
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://127.0.0.1/TyOffice/AppExt/STK/Service/WS_STK.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://127.0.0.1/TyOffice/AppExt/STK/Service/WS_STK.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://127.0.0.1/TyOffice/AppExt/STK/Service/WS_STK.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/STK_Service" />
+      <xsd:import schemaLocation="http://127.0.0.1/TyOffice/AppExt/STK/Service/WS_STK.svc?xsd=xsd3" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IWS_STK_SYS_Test_InputMessage">
+    <wsdl:part name="parameters" element="tns:SYS_Test" />
+  </wsdl:message>
+  <wsdl:message name="IWS_STK_SYS_Test_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SYS_TestResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWS_STK_SYS_Login_InputMessage">
+    <wsdl:part name="parameters" element="tns:SYS_Login" />
+  </wsdl:message>
+  <wsdl:message name="IWS_STK_SYS_Login_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SYS_LoginResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWS_STK_SYS_Login_Menu_InputMessage">
+    <wsdl:part name="parameters" element="tns:SYS_Login_Menu" />
+  </wsdl:message>
+  <wsdl:message name="IWS_STK_SYS_Login_Menu_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SYS_Login_MenuResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWS_STK_SYS_Logout_InputMessage">
+    <wsdl:part name="parameters" element="tns:SYS_Logout" />
+  </wsdl:message>
+  <wsdl:message name="IWS_STK_SYS_Logout_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SYS_LogoutResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWS_STK_Sys_User_List_InputMessage">
+    <wsdl:part name="parameters" element="tns:Sys_User_List" />
+  </wsdl:message>
+  <wsdl:message name="IWS_STK_Sys_User_List_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Sys_User_ListResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWS_STK_Sys_User_Edit_InputMessage">
+    <wsdl:part name="parameters" element="tns:Sys_User_Edit" />
+  </wsdl:message>
+  <wsdl:message name="IWS_STK_Sys_User_Edit_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Sys_User_EditResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWS_STK_Sys_Role_List_InputMessage">
+    <wsdl:part name="parameters" element="tns:Sys_Role_List" />
+  </wsdl:message>
+  <wsdl:message name="IWS_STK_Sys_Role_List_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Sys_Role_ListResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWS_STK_Sys_Role_Edit_InputMessage">
+    <wsdl:part name="parameters" element="tns:Sys_Role_Edit" />
+  </wsdl:message>
+  <wsdl:message name="IWS_STK_Sys_Role_Edit_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Sys_Role_EditResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWS_STK_Sys_Menu_List_InputMessage">
+    <wsdl:part name="parameters" element="tns:Sys_Menu_List" />
+  </wsdl:message>
+  <wsdl:message name="IWS_STK_Sys_Menu_List_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Sys_Menu_ListResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWS_STK_SYS_Param_Get_InputMessage">
+    <wsdl:part name="parameters" element="tns:SYS_Param_Get" />
+  </wsdl:message>
+  <wsdl:message name="IWS_STK_SYS_Param_Get_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SYS_Param_GetResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWS_STK_SYS_Param_Set_InputMessage">
+    <wsdl:part name="parameters" element="tns:SYS_Param_Set" />
+  </wsdl:message>
+  <wsdl:message name="IWS_STK_SYS_Param_Set_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SYS_Param_SetResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWS_STK_SYS_Grid_Get_InputMessage">
+    <wsdl:part name="parameters" element="tns:SYS_Grid_Get" />
+  </wsdl:message>
+  <wsdl:message name="IWS_STK_SYS_Grid_Get_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SYS_Grid_GetResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWS_STK_SYS_Grid_Set_InputMessage">
+    <wsdl:part name="parameters" element="tns:SYS_Grid_Set" />
+  </wsdl:message>
+  <wsdl:message name="IWS_STK_SYS_Grid_Set_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SYS_Grid_SetResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWS_STK_GetTableDef_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetTableDef" />
+  </wsdl:message>
+  <wsdl:message name="IWS_STK_GetTableDef_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetTableDefResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWS_STK_BAS_储物箱_List_InputMessage">
+    <wsdl:part name="parameters" element="tns:BAS_储物箱_List" />
+  </wsdl:message>
+  <wsdl:message name="IWS_STK_BAS_储物箱_List_OutputMessage">
+    <wsdl:part name="parameters" element="tns:BAS_储物箱_ListResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWS_STK_BAS_储物箱_Edit_InputMessage">
+    <wsdl:part name="parameters" element="tns:BAS_储物箱_Edit" />
+  </wsdl:message>
+  <wsdl:message name="IWS_STK_BAS_储物箱_Edit_OutputMessage">
+    <wsdl:part name="parameters" element="tns:BAS_储物箱_EditResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWS_STK_BAS_货架_List_InputMessage">
+    <wsdl:part name="parameters" element="tns:BAS_货架_List" />
+  </wsdl:message>
+  <wsdl:message name="IWS_STK_BAS_货架_List_OutputMessage">
+    <wsdl:part name="parameters" element="tns:BAS_货架_ListResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWS_STK_BAS_货架_Edit_InputMessage">
+    <wsdl:part name="parameters" element="tns:BAS_货架_Edit" />
+  </wsdl:message>
+  <wsdl:message name="IWS_STK_BAS_货架_Edit_OutputMessage">
+    <wsdl:part name="parameters" element="tns:BAS_货架_EditResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWS_STK_BAS_仓库_List_InputMessage">
+    <wsdl:part name="parameters" element="tns:BAS_仓库_List" />
+  </wsdl:message>
+  <wsdl:message name="IWS_STK_BAS_仓库_List_OutputMessage">
+    <wsdl:part name="parameters" element="tns:BAS_仓库_ListResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWS_STK_BAS_仓库_Edit_InputMessage">
+    <wsdl:part name="parameters" element="tns:BAS_仓库_Edit" />
+  </wsdl:message>
+  <wsdl:message name="IWS_STK_BAS_仓库_Edit_OutputMessage">
+    <wsdl:part name="parameters" element="tns:BAS_仓库_EditResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWS_STK_BAS_仓库_类型_List_InputMessage">
+    <wsdl:part name="parameters" element="tns:BAS_仓库_类型_List" />
+  </wsdl:message>
+  <wsdl:message name="IWS_STK_BAS_仓库_类型_List_OutputMessage">
+    <wsdl:part name="parameters" element="tns:BAS_仓库_类型_ListResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWS_STK_BAS_存货_List_InputMessage">
+    <wsdl:part name="parameters" element="tns:BAS_存货_List" />
+  </wsdl:message>
+  <wsdl:message name="IWS_STK_BAS_存货_List_OutputMessage">
+    <wsdl:part name="parameters" element="tns:BAS_存货_ListResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWS_STK_BAS_存货_Edit_InputMessage">
+    <wsdl:part name="parameters" element="tns:BAS_存货_Edit" />
+  </wsdl:message>
+  <wsdl:message name="IWS_STK_BAS_存货_Edit_OutputMessage">
+    <wsdl:part name="parameters" element="tns:BAS_存货_EditResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWS_STK_BAS_存货_类别_List_InputMessage">
+    <wsdl:part name="parameters" element="tns:BAS_存货_类别_List" />
+  </wsdl:message>
+  <wsdl:message name="IWS_STK_BAS_存货_类别_List_OutputMessage">
+    <wsdl:part name="parameters" element="tns:BAS_存货_类别_ListResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWS_STK_BAS_存货_类别_Edit_InputMessage">
+    <wsdl:part name="parameters" element="tns:BAS_存货_类别_Edit" />
+  </wsdl:message>
+  <wsdl:message name="IWS_STK_BAS_存货_类别_Edit_OutputMessage">
+    <wsdl:part name="parameters" element="tns:BAS_存货_类别_EditResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWS_STK_BAS_存货_类别_Down_InputMessage">
+    <wsdl:part name="parameters" element="tns:BAS_存货_类别_Down" />
+  </wsdl:message>
+  <wsdl:message name="IWS_STK_BAS_存货_类别_Down_OutputMessage">
+    <wsdl:part name="parameters" element="tns:BAS_存货_类别_DownResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWS_STK_BAS_期初库存_List_InputMessage">
+    <wsdl:part name="parameters" element="tns:BAS_期初库存_List" />
+  </wsdl:message>
+  <wsdl:message name="IWS_STK_BAS_期初库存_List_OutputMessage">
+    <wsdl:part name="parameters" element="tns:BAS_期初库存_ListResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWS_STK_BAS_期初库存_Edit_InputMessage">
+    <wsdl:part name="parameters" element="tns:BAS_期初库存_Edit" />
+  </wsdl:message>
+  <wsdl:message name="IWS_STK_BAS_期初库存_Edit_OutputMessage">
+    <wsdl:part name="parameters" element="tns:BAS_期初库存_EditResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWS_STK_BAS_供应商_List_InputMessage">
+    <wsdl:part name="parameters" element="tns:BAS_供应商_List" />
+  </wsdl:message>
+  <wsdl:message name="IWS_STK_BAS_供应商_List_OutputMessage">
+    <wsdl:part name="parameters" element="tns:BAS_供应商_ListResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWS_STK_BAS_供应商_Edit_InputMessage">
+    <wsdl:part name="parameters" element="tns:BAS_供应商_Edit" />
+  </wsdl:message>
+  <wsdl:message name="IWS_STK_BAS_供应商_Edit_OutputMessage">
+    <wsdl:part name="parameters" element="tns:BAS_供应商_EditResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWS_STK_STK_库存出库_List_InputMessage">
+    <wsdl:part name="parameters" element="tns:STK_库存出库_List" />
+  </wsdl:message>
+  <wsdl:message name="IWS_STK_STK_库存出库_List_OutputMessage">
+    <wsdl:part name="parameters" element="tns:STK_库存出库_ListResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWS_STK_STK_库存出库_Edit_InputMessage">
+    <wsdl:part name="parameters" element="tns:STK_库存出库_Edit" />
+  </wsdl:message>
+  <wsdl:message name="IWS_STK_STK_库存出库_Edit_OutputMessage">
+    <wsdl:part name="parameters" element="tns:STK_库存出库_EditResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWS_STK_STK_库存入库_List_InputMessage">
+    <wsdl:part name="parameters" element="tns:STK_库存入库_List" />
+  </wsdl:message>
+  <wsdl:message name="IWS_STK_STK_库存入库_List_OutputMessage">
+    <wsdl:part name="parameters" element="tns:STK_库存入库_ListResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWS_STK_STK_库存入库_Edit_InputMessage">
+    <wsdl:part name="parameters" element="tns:STK_库存入库_Edit" />
+  </wsdl:message>
+  <wsdl:message name="IWS_STK_STK_库存入库_Edit_OutputMessage">
+    <wsdl:part name="parameters" element="tns:STK_库存入库_EditResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWS_STK_BAS_会计期间_List_InputMessage">
+    <wsdl:part name="parameters" element="tns:BAS_会计期间_List" />
+  </wsdl:message>
+  <wsdl:message name="IWS_STK_BAS_会计期间_List_OutputMessage">
+    <wsdl:part name="parameters" element="tns:BAS_会计期间_ListResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWS_STK_BAS_会计期间_Edit_InputMessage">
+    <wsdl:part name="parameters" element="tns:BAS_会计期间_Edit" />
+  </wsdl:message>
+  <wsdl:message name="IWS_STK_BAS_会计期间_Edit_OutputMessage">
+    <wsdl:part name="parameters" element="tns:BAS_会计期间_EditResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWS_STK_STK_库存分布_List_InputMessage">
+    <wsdl:part name="parameters" element="tns:STK_库存分布_List" />
+  </wsdl:message>
+  <wsdl:message name="IWS_STK_STK_库存分布_List_OutputMessage">
+    <wsdl:part name="parameters" element="tns:STK_库存分布_ListResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWS_STK_STK_库存总账_List_InputMessage">
+    <wsdl:part name="parameters" element="tns:STK_库存总账_List" />
+  </wsdl:message>
+  <wsdl:message name="IWS_STK_STK_库存总账_List_OutputMessage">
+    <wsdl:part name="parameters" element="tns:STK_库存总账_ListResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IWS_STK">
+    <wsdl:operation name="SYS_Test">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWS_STK/SYS_Test" message="tns:IWS_STK_SYS_Test_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWS_STK/SYS_TestResponse" message="tns:IWS_STK_SYS_Test_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SYS_Login">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWS_STK/SYS_Login" message="tns:IWS_STK_SYS_Login_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWS_STK/SYS_LoginResponse" message="tns:IWS_STK_SYS_Login_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SYS_Login_Menu">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWS_STK/SYS_Login_Menu" message="tns:IWS_STK_SYS_Login_Menu_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWS_STK/SYS_Login_MenuResponse" message="tns:IWS_STK_SYS_Login_Menu_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SYS_Logout">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWS_STK/SYS_Logout" message="tns:IWS_STK_SYS_Logout_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWS_STK/SYS_LogoutResponse" message="tns:IWS_STK_SYS_Logout_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Sys_User_List">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWS_STK/Sys_User_List" message="tns:IWS_STK_Sys_User_List_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWS_STK/Sys_User_ListResponse" message="tns:IWS_STK_Sys_User_List_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Sys_User_Edit">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWS_STK/Sys_User_Edit" message="tns:IWS_STK_Sys_User_Edit_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWS_STK/Sys_User_EditResponse" message="tns:IWS_STK_Sys_User_Edit_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Sys_Role_List">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWS_STK/Sys_Role_List" message="tns:IWS_STK_Sys_Role_List_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWS_STK/Sys_Role_ListResponse" message="tns:IWS_STK_Sys_Role_List_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Sys_Role_Edit">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWS_STK/Sys_Role_Edit" message="tns:IWS_STK_Sys_Role_Edit_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWS_STK/Sys_Role_EditResponse" message="tns:IWS_STK_Sys_Role_Edit_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Sys_Menu_List">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWS_STK/Sys_Menu_List" message="tns:IWS_STK_Sys_Menu_List_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWS_STK/Sys_Menu_ListResponse" message="tns:IWS_STK_Sys_Menu_List_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SYS_Param_Get">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWS_STK/SYS_Param_Get" message="tns:IWS_STK_SYS_Param_Get_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWS_STK/SYS_Param_GetResponse" message="tns:IWS_STK_SYS_Param_Get_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SYS_Param_Set">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWS_STK/SYS_Param_Set" message="tns:IWS_STK_SYS_Param_Set_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWS_STK/SYS_Param_SetResponse" message="tns:IWS_STK_SYS_Param_Set_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SYS_Grid_Get">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWS_STK/SYS_Grid_Get" message="tns:IWS_STK_SYS_Grid_Get_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWS_STK/SYS_Grid_GetResponse" message="tns:IWS_STK_SYS_Grid_Get_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SYS_Grid_Set">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWS_STK/SYS_Grid_Set" message="tns:IWS_STK_SYS_Grid_Set_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWS_STK/SYS_Grid_SetResponse" message="tns:IWS_STK_SYS_Grid_Set_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTableDef">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWS_STK/GetTableDef" message="tns:IWS_STK_GetTableDef_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWS_STK/GetTableDefResponse" message="tns:IWS_STK_GetTableDef_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="BAS_储物箱_List">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWS_STK/BAS_储物箱_List" message="tns:IWS_STK_BAS_储物箱_List_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWS_STK/BAS_储物箱_ListResponse" message="tns:IWS_STK_BAS_储物箱_List_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="BAS_储物箱_Edit">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWS_STK/BAS_储物箱_Edit" message="tns:IWS_STK_BAS_储物箱_Edit_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWS_STK/BAS_储物箱_EditResponse" message="tns:IWS_STK_BAS_储物箱_Edit_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="BAS_货架_List">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWS_STK/BAS_货架_List" message="tns:IWS_STK_BAS_货架_List_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWS_STK/BAS_货架_ListResponse" message="tns:IWS_STK_BAS_货架_List_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="BAS_货架_Edit">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWS_STK/BAS_货架_Edit" message="tns:IWS_STK_BAS_货架_Edit_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWS_STK/BAS_货架_EditResponse" message="tns:IWS_STK_BAS_货架_Edit_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="BAS_仓库_List">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWS_STK/BAS_仓库_List" message="tns:IWS_STK_BAS_仓库_List_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWS_STK/BAS_仓库_ListResponse" message="tns:IWS_STK_BAS_仓库_List_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="BAS_仓库_Edit">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWS_STK/BAS_仓库_Edit" message="tns:IWS_STK_BAS_仓库_Edit_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWS_STK/BAS_仓库_EditResponse" message="tns:IWS_STK_BAS_仓库_Edit_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="BAS_仓库_类型_List">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWS_STK/BAS_仓库_类型_List" message="tns:IWS_STK_BAS_仓库_类型_List_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWS_STK/BAS_仓库_类型_ListResponse" message="tns:IWS_STK_BAS_仓库_类型_List_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="BAS_存货_List">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWS_STK/BAS_存货_List" message="tns:IWS_STK_BAS_存货_List_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWS_STK/BAS_存货_ListResponse" message="tns:IWS_STK_BAS_存货_List_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="BAS_存货_Edit">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWS_STK/BAS_存货_Edit" message="tns:IWS_STK_BAS_存货_Edit_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWS_STK/BAS_存货_EditResponse" message="tns:IWS_STK_BAS_存货_Edit_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="BAS_存货_类别_List">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWS_STK/BAS_存货_类别_List" message="tns:IWS_STK_BAS_存货_类别_List_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWS_STK/BAS_存货_类别_ListResponse" message="tns:IWS_STK_BAS_存货_类别_List_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="BAS_存货_类别_Edit">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWS_STK/BAS_存货_类别_Edit" message="tns:IWS_STK_BAS_存货_类别_Edit_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWS_STK/BAS_存货_类别_EditResponse" message="tns:IWS_STK_BAS_存货_类别_Edit_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="BAS_存货_类别_Down">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWS_STK/BAS_存货_类别_Down" message="tns:IWS_STK_BAS_存货_类别_Down_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWS_STK/BAS_存货_类别_DownResponse" message="tns:IWS_STK_BAS_存货_类别_Down_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="BAS_期初库存_List">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWS_STK/BAS_期初库存_List" message="tns:IWS_STK_BAS_期初库存_List_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWS_STK/BAS_期初库存_ListResponse" message="tns:IWS_STK_BAS_期初库存_List_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="BAS_期初库存_Edit">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWS_STK/BAS_期初库存_Edit" message="tns:IWS_STK_BAS_期初库存_Edit_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWS_STK/BAS_期初库存_EditResponse" message="tns:IWS_STK_BAS_期初库存_Edit_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="BAS_供应商_List">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWS_STK/BAS_供应商_List" message="tns:IWS_STK_BAS_供应商_List_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWS_STK/BAS_供应商_ListResponse" message="tns:IWS_STK_BAS_供应商_List_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="BAS_供应商_Edit">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWS_STK/BAS_供应商_Edit" message="tns:IWS_STK_BAS_供应商_Edit_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWS_STK/BAS_供应商_EditResponse" message="tns:IWS_STK_BAS_供应商_Edit_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="STK_库存出库_List">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWS_STK/STK_库存出库_List" message="tns:IWS_STK_STK_库存出库_List_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWS_STK/STK_库存出库_ListResponse" message="tns:IWS_STK_STK_库存出库_List_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="STK_库存出库_Edit">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWS_STK/STK_库存出库_Edit" message="tns:IWS_STK_STK_库存出库_Edit_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWS_STK/STK_库存出库_EditResponse" message="tns:IWS_STK_STK_库存出库_Edit_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="STK_库存入库_List">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWS_STK/STK_库存入库_List" message="tns:IWS_STK_STK_库存入库_List_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWS_STK/STK_库存入库_ListResponse" message="tns:IWS_STK_STK_库存入库_List_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="STK_库存入库_Edit">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWS_STK/STK_库存入库_Edit" message="tns:IWS_STK_STK_库存入库_Edit_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWS_STK/STK_库存入库_EditResponse" message="tns:IWS_STK_STK_库存入库_Edit_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="BAS_会计期间_List">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWS_STK/BAS_会计期间_List" message="tns:IWS_STK_BAS_会计期间_List_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWS_STK/BAS_会计期间_ListResponse" message="tns:IWS_STK_BAS_会计期间_List_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="BAS_会计期间_Edit">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWS_STK/BAS_会计期间_Edit" message="tns:IWS_STK_BAS_会计期间_Edit_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWS_STK/BAS_会计期间_EditResponse" message="tns:IWS_STK_BAS_会计期间_Edit_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="STK_库存分布_List">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWS_STK/STK_库存分布_List" message="tns:IWS_STK_STK_库存分布_List_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWS_STK/STK_库存分布_ListResponse" message="tns:IWS_STK_STK_库存分布_List_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="STK_库存总账_List">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWS_STK/STK_库存总账_List" message="tns:IWS_STK_STK_库存总账_List_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWS_STK/STK_库存总账_ListResponse" message="tns:IWS_STK_STK_库存总账_List_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IWS_STK" type="tns:IWS_STK">
+    <wsp:PolicyReference URI="#BasicHttpBinding_IWS_STK_policy" />
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="SYS_Test">
+      <soap:operation soapAction="http://tempuri.org/IWS_STK/SYS_Test" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SYS_Login">
+      <soap:operation soapAction="http://tempuri.org/IWS_STK/SYS_Login" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SYS_Login_Menu">
+      <soap:operation soapAction="http://tempuri.org/IWS_STK/SYS_Login_Menu" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SYS_Logout">
+      <soap:operation soapAction="http://tempuri.org/IWS_STK/SYS_Logout" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Sys_User_List">
+      <soap:operation soapAction="http://tempuri.org/IWS_STK/Sys_User_List" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Sys_User_Edit">
+      <soap:operation soapAction="http://tempuri.org/IWS_STK/Sys_User_Edit" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Sys_Role_List">
+      <soap:operation soapAction="http://tempuri.org/IWS_STK/Sys_Role_List" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Sys_Role_Edit">
+      <soap:operation soapAction="http://tempuri.org/IWS_STK/Sys_Role_Edit" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Sys_Menu_List">
+      <soap:operation soapAction="http://tempuri.org/IWS_STK/Sys_Menu_List" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SYS_Param_Get">
+      <soap:operation soapAction="http://tempuri.org/IWS_STK/SYS_Param_Get" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SYS_Param_Set">
+      <soap:operation soapAction="http://tempuri.org/IWS_STK/SYS_Param_Set" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SYS_Grid_Get">
+      <soap:operation soapAction="http://tempuri.org/IWS_STK/SYS_Grid_Get" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SYS_Grid_Set">
+      <soap:operation soapAction="http://tempuri.org/IWS_STK/SYS_Grid_Set" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTableDef">
+      <soap:operation soapAction="http://tempuri.org/IWS_STK/GetTableDef" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BAS_储物箱_List">
+      <soap:operation soapAction="http://tempuri.org/IWS_STK/BAS_储物箱_List" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BAS_储物箱_Edit">
+      <soap:operation soapAction="http://tempuri.org/IWS_STK/BAS_储物箱_Edit" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BAS_货架_List">
+      <soap:operation soapAction="http://tempuri.org/IWS_STK/BAS_货架_List" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BAS_货架_Edit">
+      <soap:operation soapAction="http://tempuri.org/IWS_STK/BAS_货架_Edit" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BAS_仓库_List">
+      <soap:operation soapAction="http://tempuri.org/IWS_STK/BAS_仓库_List" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BAS_仓库_Edit">
+      <soap:operation soapAction="http://tempuri.org/IWS_STK/BAS_仓库_Edit" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BAS_仓库_类型_List">
+      <soap:operation soapAction="http://tempuri.org/IWS_STK/BAS_仓库_类型_List" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BAS_存货_List">
+      <soap:operation soapAction="http://tempuri.org/IWS_STK/BAS_存货_List" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BAS_存货_Edit">
+      <soap:operation soapAction="http://tempuri.org/IWS_STK/BAS_存货_Edit" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BAS_存货_类别_List">
+      <soap:operation soapAction="http://tempuri.org/IWS_STK/BAS_存货_类别_List" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BAS_存货_类别_Edit">
+      <soap:operation soapAction="http://tempuri.org/IWS_STK/BAS_存货_类别_Edit" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BAS_存货_类别_Down">
+      <soap:operation soapAction="http://tempuri.org/IWS_STK/BAS_存货_类别_Down" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BAS_期初库存_List">
+      <soap:operation soapAction="http://tempuri.org/IWS_STK/BAS_期初库存_List" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BAS_期初库存_Edit">
+      <soap:operation soapAction="http://tempuri.org/IWS_STK/BAS_期初库存_Edit" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BAS_供应商_List">
+      <soap:operation soapAction="http://tempuri.org/IWS_STK/BAS_供应商_List" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BAS_供应商_Edit">
+      <soap:operation soapAction="http://tempuri.org/IWS_STK/BAS_供应商_Edit" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="STK_库存出库_List">
+      <soap:operation soapAction="http://tempuri.org/IWS_STK/STK_库存出库_List" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="STK_库存出库_Edit">
+      <soap:operation soapAction="http://tempuri.org/IWS_STK/STK_库存出库_Edit" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="STK_库存入库_List">
+      <soap:operation soapAction="http://tempuri.org/IWS_STK/STK_库存入库_List" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="STK_库存入库_Edit">
+      <soap:operation soapAction="http://tempuri.org/IWS_STK/STK_库存入库_Edit" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BAS_会计期间_List">
+      <soap:operation soapAction="http://tempuri.org/IWS_STK/BAS_会计期间_List" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BAS_会计期间_Edit">
+      <soap:operation soapAction="http://tempuri.org/IWS_STK/BAS_会计期间_Edit" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="STK_库存分布_List">
+      <soap:operation soapAction="http://tempuri.org/IWS_STK/STK_库存分布_List" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="STK_库存总账_List">
+      <soap:operation soapAction="http://tempuri.org/IWS_STK/STK_库存总账_List" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="WS_STK">
+    <wsdl:port name="BasicHttpBinding_IWS_STK" binding="tns:BasicHttpBinding_IWS_STK">
+      <soap:address location="http://127.0.0.1/TyOffice/AppExt/STK/Service/WS_STK.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
